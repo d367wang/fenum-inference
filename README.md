@@ -1,6 +1,6 @@
 Enum-_ish_ Type Inference
 ===========================
-or **_Fake Enum_** type inference -- ensures the type safety of using sets of constants as true `enum` constructs.
+or **_Fake Enum_** type inference -- ensures the type safety when using sets of constants as true `enum` constructs.
 
 [comment]: <> ([![Build Status]&#40;https://travis-ci.com/opprop/fenum-demo.svg?branch=master&#41;]&#40;https://travis-ci.com/opprop/fenum-demo&#41;)
 
