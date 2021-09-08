@@ -1,6 +1,6 @@
 Enum-_ish_ Type Inference
 ===========================
-or **_Fake Enum_** type inference -- a type system for enum-like grouped values.
+or **_Fake Enum_** type inference -- ensures the type safety of using sets of constants as true `enum` constructs.
 
 [comment]: <> ([![Build Status]&#40;https://travis-ci.com/opprop/fenum-demo.svg?branch=master&#41;]&#40;https://travis-ci.com/opprop/fenum-demo&#41;)
 
@@ -21,7 +21,7 @@ The Fake Enum Checker can issue a compile-time warning if the programmer ever tr
 
 
 ### Background II - Whole program type inference
-[Checker Framework Inference](https://github.com/opprop/checker-framework-inference) is a general type inference framework, which save the effort of manually adding annotations before using the type checker above.
+[Checker Framework Inference](https://github.com/opprop/checker-framework-inference) is a general type inference framework, which save the effort of manually adding annotations before using a Fake Enum type checker.
 
 This Fake Enum type inference is build upon `Checker Framework Inference`.
 
